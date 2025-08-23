@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000
 const app = express()
 
 app.use(cors({
-    origin: ['https://my-brain-frontend-k2nt.vercel.app', 'http://localhost:5173']
+    origin: ['https://my-brain-frontend-k2nt.vercel.app',"https://my-brain-frontend-k2nt.vercel.app/", 'http://localhost:5173']
 }))
 app.use(express.json())
 app.use('/v1/user', UserRouter)
