@@ -24,7 +24,7 @@ app.use('/v1/brain', BrainRouter)
 app.get('/', (req, res) => {
     // healthy
     res.status(200).json({
-        message: "BigBrain backend - By Suleman"
+        message: "MyBrain  backend - By  Tushar"
     })
 })
 
