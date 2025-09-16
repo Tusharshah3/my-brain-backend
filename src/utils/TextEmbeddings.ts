@@ -2,7 +2,7 @@ import { CleanedPayload } from "./cleanPayload";
 import { CohereClient } from 'cohere-ai';
 
 const cohere = new CohereClient({
-    token: process.env.COHERE_API_KEY
+    token: "fAvJFGmTuHKKGA3IqcvwpER1IqI8vl13DCOdyXwf"
 })
 
 export const getEmbeddings = async (data: CleanedPayload | string): Promise<number[]> => {
